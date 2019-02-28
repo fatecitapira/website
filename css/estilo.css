@@ -7,7 +7,7 @@ header {
 
 .container {
     margin: 0 auto;
-    max-width: 940px;
+    max-width: 1100px;
 }
 
 .telefone {
@@ -53,12 +53,6 @@ header {
     left: 40px;
 }
 
-.logo_cps {
-    position: relative;
-    left: 60px;
-    height: 80px;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #eceae7;
@@ -79,7 +73,7 @@ body {
 
 .menu-acima {
     font-weight: bolder;
-    width: 940px;
+    width: 1100px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -111,91 +105,27 @@ body {
 
 
 
-
-
-/*  Banner Central  */
-.banner {
-    max-width: 940px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -18px;
-}
-
-.banner img {
-   max-width: 100%;
-   max-height: 100%;
-}
-
-.banner figcaption {
-    width: 940px;
-    margin: 0 auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    position: absolute;
-    top: 0%;
-    text-align: center;
-}   
-
-.banner figcaption h1 {
-    margin-top: 60px;
-    font-size: 40px;
-    border-bottom: 2px solid #b00b18;
-    box-sizing: border-box;
-    margin-left: 180px;
-    margin-right: 180px;
-
-}
-
-.banner figcaption h2 {
-    font-size: 18px;
-    margin-top: -10px;
-    margin-bottom: 80px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-}
-
-.banner figcaption a {
-    font-size: 16px;
-    background-color: #b00b18;
-    color: white;
-    padding: 10px;
-    padding-left: 16px;
-    padding-right: 16px;
-    text-decoration:none;    
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.banner figcaption a:hover {
-    color: #0c161b;
-}
-
-.banner figcaption a:active {
-    color: #3a4144;
-}
-
-
-
-
 /*  Conteúdo Main  */
 .main {
     margin: 0 auto;
-    max-width: 940px;
+    margin-top: 60px;
+    max-width: 1100px;
     background-color: #eceae7;    
     display: flex;
-    max-height: 1200px;
+    height: 1100px;
 }
 
 .main-esquerda {
     background-color: #eceae7;
-    width: 240px;
+    width: 320px;
+    margin-top: -30px;
     flex: initial;
 }
 
 .main-direita {
     background-color: white;
     width: 670px;
-    height: 810px;
+    height: 1100px;
     margin-top: -50px;
     position: relative;
     border: 8px solid white;
@@ -203,6 +133,7 @@ body {
     border-radius: 40px;
     padding-top: 10px;
 }
+
 
 
 
@@ -256,8 +187,6 @@ body {
 .main-bground figcaption a:active {
     color: #be1e10;
 }
-
-
 
 
 
@@ -400,8 +329,92 @@ a.mais-noticias:active {
 
 
 /*  Rodapé com informações  */
+.rodape-info {
+    background-color: #2e3e46;
+    width: 100%;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    display: flex;
+}
 
+.conteudo1 {
+    flex: 1;
+    margin-left: 30px;
+}
 
+.conteudo1-linha {
+    background-color: #b00b18; 
+    color: black;
+    font-size: 3px;
+    width: 80px;
+    margin-bottom: -10px;
+}
+
+.conteudo1 h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.conteudo1 h2 {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: rgb(184, 184, 184);
+}
+
+.conteudo1 h2 b {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.conteudo2 {
+    flex: 1;
+}
+
+.logo_cps {
+    width: 350px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.conteudo3 {
+    flex: 1;
+}
+
+.img-depoimentos {
+    float: left;
+    
+}
+
+.conteudo3-linha {
+    background-color: #b00b18; 
+    color: black;
+    font-size: 3px;
+    width: 80px;
+    margin-bottom: -10px;
+}
+
+.conteudo3 h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.conteudo3 h2 {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: rgb(184, 184, 184);
+}
+
+.conteudo3 h3 {
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
+}
 
 
 
