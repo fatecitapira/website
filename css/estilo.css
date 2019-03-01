@@ -7,7 +7,7 @@ header {
 
 .container {
     margin: 0 auto;
-    max-width: 1100px;
+    max-width: 950px;
 }
 
 .telefone {
@@ -61,7 +61,9 @@ body {
 }
 
 
-
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 
 
 /*  Menu Principal  */
@@ -73,7 +75,7 @@ body {
 
 .menu-acima {
     font-weight: bolder;
-    width: 1100px;
+    width: 950px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -104,20 +106,24 @@ body {
 }
 
 
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+
 
 /*  Conteúdo Main  */
 .main {
     margin: 0 auto;
     margin-top: 60px;
-    max-width: 1100px;
+    max-width: 950px;
     background-color: #eceae7;    
     display: flex;
     height: 1100px;
-}
+    }
 
 .main-esquerda {
     background-color: #eceae7;
-    width: 320px;
+    width: 280px;
     margin-top: -30px;
     flex: initial;
 }
@@ -135,6 +141,9 @@ body {
 }
 
 
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 
 
 /*  BackGround  */
@@ -189,6 +198,10 @@ body {
 }
 
 
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+
 
 /*  Menu Lateral  */
 .menu-lateral {
@@ -211,7 +224,7 @@ body {
     margin-bottom: 2px;
     padding: 5px 10px 8px;
     list-style: none;
-    font-size: 16px;
+    font-size: 14px;
     border-bottom: 1px solid #d3d2d2;
 }
 
@@ -228,6 +241,10 @@ body {
     color: #be1e10;
 }
 
+
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 
 
 /*  Ultimas Notícias  */
@@ -327,6 +344,130 @@ a.mais-noticias:active {
 }
 
 
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+
+
+/*  Banner dos cursos  */
+.banner-cursos {
+    display: flex;
+    max-width: 950px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}  
+
+.banner-cursos h1 {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.banner-cursos h1#ge {
+    background-color: #4cadc9;
+}
+
+.banner-cursos h1#gti {
+    background-color: #75d69c;
+}
+
+.banner-cursos h1#gpi {
+    background-color: #f7be68;
+}
+
+
+.banner-cursos h2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.banner-cursos a {
+    font-size: 14px;
+    background-color: #b00b18;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;    
+    position: absolute;
+    right: 10px;
+}
+
+.banner-cursos figcaption a:hover {
+    color: #0c161b;
+}
+
+.banner-cursos figcaption a:active {
+    color: #3a4144;
+}
+
+.curso-gpi {
+    flex: 1;
+    margin: 0%;
+    display: inline-block;
+    position: relative;
+    border: 4px solid #2e3e46;
+}
+
+.curso-gpi img {
+    width: 317px;
+}
+
+.curso-gpi figcaption {
+    color: white;
+    position: absolute;
+    top: 0px;
+}
+
+.curso-gti {
+    flex: 1;
+    margin: 0%;
+    display: inline-block;
+    position: relative;
+}
+
+.curso-gti img {
+    width: 317px;
+}
+
+.curso-gti figcaption {
+    color: white;
+    position: absolute;
+    top: 0px;
+}
+
+.curso-ge {
+    flex: 1;
+    margin: 0%;
+    display: inline-block;
+    position: relative;
+}
+
+.curso-ge img {
+    width: 317px;
+}
+
+.curso-ge figcaption {
+    color: white;
+    position: absolute;
+    top: 0px;
+}
+
+
+
+
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+
 
 /*  Rodapé com informações  */
 .rodape-info {
@@ -386,7 +527,8 @@ a.mais-noticias:active {
 
 .img-depoimentos {
     float: left;
-    
+    margin-right: 20px;
+    margin-top: -20px;    
 }
 
 .conteudo3-linha {
@@ -407,6 +549,7 @@ a.mais-noticias:active {
     font-weight: lighter;
     margin-bottom: 5px;
     margin-top: 5px;
+    margin-right: 5px;
     color: rgb(184, 184, 184);
 }
 
@@ -416,6 +559,10 @@ a.mais-noticias:active {
     color: white;
 }
 
+
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 
 
 /*  Rodapé Copyright  */
