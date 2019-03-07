@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+
+
 /*  Cabeçalho  */
 header {
     position: relative;
@@ -271,7 +276,8 @@ body {
     padding-bottom: 20px; 
 }
 
-.noticias-img {
+.noticias img#noticiaicon {
+    width: 40px;
     position: absolute;
     margin-top: -50px;
     margin-left: 315px;
@@ -292,6 +298,10 @@ body {
     vertical-align: top;
     width: 170px;
     margin: 2px;
+}
+
+.noticias img {
+    width: 150px;
 }
 
 .noticias li:hover {
@@ -354,13 +364,13 @@ a.mais-noticias:active {
     display: flex;
     max-width: 950px;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }  
 
 .banner-cursos h1 {
     font-size: 16px;
     font-weight: bolder;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-top: 0;
     text-align: center;
     padding-top: 10px;
@@ -381,31 +391,80 @@ a.mais-noticias:active {
 
 
 .banner-cursos h2 {
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 16px;
     margin-left: 15px;
     margin-right: 15px;
     text-align: justify;
     margin-bottom: 50px;
 }
 
-.banner-cursos a {
+.banner-cursos a#gpi {
     font-size: 14px;
-    background-color: #b00b18;
-    color: white;
-    padding: 5px;
+    background-color: white;
+    color: #f7be68;
+    padding: 10px;
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;    
     position: absolute;
-    right: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    left: 20px;
+    bottom: 40px;
 }
 
-.banner-cursos figcaption a:hover {
-    color: #0c161b;
+
+.banner-cursos a#gti {
+    font-size: 14px;
+    background-color: white;
+    color: #75d69c;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;    
+    position: absolute;
+    border-radius: 5px;
+    font-weight: bolder;
+    left: 20px;
+    bottom: 40px;
 }
 
-.banner-cursos figcaption a:active {
+.banner-cursos a#ge {
+    font-size: 14px;
+    background-color: white;
+    color: #4cadc9;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;    
+    position: absolute;
+    border-radius: 5px;
+    font-weight: bolder;
+    left: 20px;
+    bottom: 40px;
+}
+
+.banner-cursos a#gpi:hover {
+    color: #3a4144;
+}
+
+.banner-cursos a#gpi:active {
+    color: #3a4144;
+}
+
+.banner-cursos a#gti:hover {
+    color: #3a4144;
+}
+
+.banner-cursos a#gti:active {
+    color: #3a4144;
+}
+
+.banner-cursos a#ge:hover {
+    color: #3a4144;
+}
+
+.banner-cursos a#ge:active {
     color: #3a4144;
 }
 
@@ -414,7 +473,6 @@ a.mais-noticias:active {
     margin: 0%;
     display: inline-block;
     position: relative;
-    border: 4px solid #2e3e46;
 }
 
 .curso-gpi img {
@@ -460,8 +518,6 @@ a.mais-noticias:active {
     position: absolute;
     top: 0px;
 }
-
-
 
 
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
