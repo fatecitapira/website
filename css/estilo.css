@@ -37,6 +37,28 @@ header {
     right: 0;
 }
 
+.whatsapp {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    font-size:	14px;
+    padding-right: 350px;
+    padding-top: 40px;
+    text-align:	right;
+    width: 140px;
+    top: 0;
+    right: 0;
+}
+
+.whatsapp-img {
+    position: absolute;
+    width: 50px;
+    padding-right: 480px;
+    padding-top: 38px;
+    top: 0;
+    right: 0;
+}
+
 .youtube-img {
     position: absolute;
     padding-right: 60px;
@@ -123,7 +145,7 @@ body {
     max-width: 950px;
     background-color: #eceae7;    
     display: flex;
-    height: 1100px;
+    height: 1200px;
     }
 
 .main-esquerda {
@@ -136,7 +158,7 @@ body {
 .main-direita {
     background-color: white;
     width: 670px;
-    height: 1100px;
+    height: 1200px;
     margin-top: -50px;
     position: relative;
     border: 8px solid white;
@@ -173,12 +195,13 @@ body {
 }
 
 .main-bground figcaption h1 {
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .main-bground figcaption h2 {
-    font-size: 44px;
+    font-size: 33px;
     margin-top: -10px;
+    margin-bottom: 40px;
 }
 
 .main-bground figcaption a {
@@ -255,17 +278,17 @@ body {
 /*  Ultimas Notícias  */
 .noticias-h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color: #b00b18;
     text-align: center; 
     font-weight: lighter;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 4px;
 }
 
 .noticias-h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 35px;
+    font-size: 26px;
     color: #b00b18;
     text-align: center; 
     font-weight: bolder;    
@@ -279,7 +302,7 @@ body {
 .noticias img#noticiaicon {
     width: 40px;
     position: absolute;
-    margin-top: -50px;
+    margin-top: -45px;
     margin-left: 315px;
     margin-right: 0px;
     background-color: white;   
@@ -288,6 +311,7 @@ body {
 .noticias ol {
     margin-left: 55px;
     margin-right: 55px;
+    margin-top: 40px;
     padding: 0;
 }
 
@@ -391,7 +415,7 @@ a.mais-noticias:active {
 
 
 .banner-cursos h2 {
-    font-size: 16px;
+    font-size: 13px;
     margin-left: 15px;
     margin-right: 15px;
     text-align: justify;
@@ -572,13 +596,14 @@ a.mais-noticias:active {
 }
 
 .logo_cps {
-    width: 350px;
+    width: 300px;
     margin-top: 40px;
     margin-bottom: 20px;
 }
 
 .conteudo3 {
     flex: 1;
+    margin-right: 30px;
 }
 
 .img-depoimentos {
@@ -605,7 +630,6 @@ a.mais-noticias:active {
     font-weight: lighter;
     margin-bottom: 5px;
     margin-top: 5px;
-    margin-right: 5px;
     color: rgb(184, 184, 184);
 }
 
