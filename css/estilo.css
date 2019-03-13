@@ -1,18 +1,26 @@
 @charset "UTF-8";
 
-/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
-/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
-/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
-
-
-/*  Cabeçalho  */
-header {
-    position: relative;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eceae7;
+    color: rgba(0,0,0,1);
+    margin: 0%;
 }
 
-.container {
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/****  Cabeçalho  ****/
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+header {
+    position: relative;
     margin: 0 auto;
     max-width: 950px;
+}
+
+.logotipo {
+    position: relative;
+    left: 40px;
 }
 
 .telefone {
@@ -28,15 +36,6 @@ header {
     right: 0;
 }
 
-.telefone-img {
-    position: absolute;
-    width: 30px;
-    padding-right: 270px;
-    padding-top: 48px;
-    top: 0;
-    right: 0;
-}
-
 .whatsapp {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -46,6 +45,15 @@ header {
     padding-top: 40px;
     text-align:	right;
     width: 140px;
+    top: 0;
+    right: 0;
+}
+
+.telefone-img {
+    position: absolute;
+    width: 30px;
+    padding-right: 270px;
+    padding-top: 48px;
     top: 0;
     right: 0;
 }
@@ -75,25 +83,11 @@ header {
     right: 0;
 }
 
-.logotipo {
-    position: relative;
-    left: 40px;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #eceae7;
-    color: rgba(0,0,0,1);
-    margin: 0%;
-}
-
-
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/****  Menu Principal  ****/
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
-
-
-/*  Menu Principal  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 .menu-faixa {
     background-color: #2e3e46;
     width: 100%;
@@ -132,13 +126,11 @@ body {
     background-color: #3a4144;
 }
 
-
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/****  Conteúdo Main  ****/
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
-
-
-/*  Conteúdo Main  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 .main {
     margin: 0 auto;
     margin-top: 60px;
@@ -167,13 +159,53 @@ body {
     padding-top: 10px;
 }
 
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/****  Menu Lateral  ****/
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+.menu-lateral {
+    margin-right: 10px;
+    height: 700px;
+}
+
+.menu-lateral h2 {
+    margin: 10px;
+    font-size: 18px;
+    color: #be1e10;
+}
+
+#rapido {
+    padding-top: 30px;
+}
+
+.menu-lateral li {
+    margin-left: -40px;
+    margin-bottom: 2px;
+    padding: 5px 10px 8px;
+    list-style: none;
+    font-size: 14px;
+    border-bottom: 1px solid #d3d2d2;
+}
+
+.menu-lateral a {
+    text-decoration:none; 
+    color: #858788;
+}
+
+.menu-lateral a:hover {
+    color: #000000;
+}
+
+.menu-lateral a:active {
+    color: #be1e10;
+}
 
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/****  BackGround Central  ****/
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
-
-
-/*  BackGround  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 .main-bground figure {
     max-width: 670px;   
     margin: 0; 
@@ -225,57 +257,11 @@ body {
     color: #be1e10;
 }
 
-
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
-/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
-
-
-/*  Menu Lateral  */
-.menu-lateral {
-    margin-right: 10px;
-    max-height: 700px;
-}
-
-.menu-lateral h2 {
-    margin: 10px;
-    font-size: 18px;
-    color: #be1e10;
-}
-
-#rapido {
-    padding-top: 30px;
-}
-
-.menu-lateral li {
-    margin-left: -40px;
-    margin-bottom: 2px;
-    padding: 5px 10px 8px;
-    list-style: none;
-    font-size: 14px;
-    border-bottom: 1px solid #d3d2d2;
-}
-
-.menu-lateral a {
-    text-decoration:none; 
-    color: #858788;
-}
-
-.menu-lateral a:hover {
-    color: #000000;
-}
-
-.menu-lateral a:active {
-    color: #be1e10;
-}
-
-
+/****  Ultimas Notícias  ****/
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
-/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
-
-
-/*  Ultimas Notícias  */
 .noticias-h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
@@ -377,16 +363,14 @@ a.mais-noticias:active {
     color: #be1e10;
 }
 
-
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/****  Banner dos cursos  ****/
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
-
-
-/*  Banner dos cursos  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 .banner-cursos {
     display: flex;
-    max-width: 950px;
+    width: 950px;
     margin: 0 auto;
     margin-bottom: 30px;
 }  
@@ -546,10 +530,9 @@ a.mais-noticias:active {
 
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/****  Rodapé com informações  ****/
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
-
-
-/*  Rodapé com informações  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 .rodape-info {
     background-color: #2e3e46;
     width: 100%;
@@ -642,10 +625,9 @@ a.mais-noticias:active {
 
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
+/****  Rodapé com Copyright  ****/
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
-
-
-/*  Rodapé Copyright  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  */
 .rodape {
     position: relative;
     background-color: #151d20;
