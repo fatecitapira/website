@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+label[for="bt_menu"]{
+    visibility: visible;
+}
+
+#bt_menu {
+    float: none;
+}
+
+#bt_menu:checked ~ .main nav {
+    transform: translate(0%, 0);
+}
+
+
+
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
 /****  Cabeçalho  ****/
@@ -62,6 +76,30 @@ header {
     max-width: 96%;
     height: 2000px;
 }
+
+
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
+/****  Menu Lateral  ****/
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
+
+.menu-lateral {
+    position: fixed;
+    top: 100px;
+    right: 0px;
+    margin-right: 0px;
+    bottom: 0;
+    width: 250px;
+    height: 100%;
+    border-left: 1px solid #ccc;
+    background: #fff;
+    overflow-x: auto;
+    z-index: 2;
+    transition: all .4s;
+    transform: translate(200%, 0);
+}
+
 
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
