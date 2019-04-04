@@ -69,12 +69,10 @@ header {
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
 .main {
     max-width: 96%;
-    height: 2000px;
 }
 
 .main-direita {
     max-width: 96%;
-    height: 2000px;
 }
 
 
@@ -85,17 +83,17 @@ header {
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
 
 .menu-lateral {
-    position: fixed;
+    position: absolute;
     top: 100px;
     right: 0px;
     margin-right: 0px;
-    bottom: 0;
-    width: 250px;
+    bottom: 0px;
+    width: 260px;
     height: 100%;
     border-left: 1px solid #ccc;
     background: #fff;
     overflow-x: auto;
-    z-index: 2;
+    z-index: 1;
     transition: all .4s;
     transform: translate(200%, 0);
 }

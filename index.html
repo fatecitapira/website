@@ -7,83 +7,30 @@
     <title>Fatec Itapira</title>
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/mobile.css" media="(max-width: 420px)">
+    <script src="js/jquery.js"></script>
+    <script>
+    
+            $(function(){
+                $("#header").load("header.html");
+                $("#menuprincipal").load("menuprincipal.html");
+                $("#menulateral").load("menulateral.html");
+                $("#bannercursos").load("bannercursos.html");
+                $("#footer").load("footer.html");
+            });
+        
+        </script>
 </head>
-
 
 <body>
 <input type="checkbox" id="bt_menu"/>
 <label for="bt_menu">&#9776;</label>
-
-
-<header><!-- Conteúdo do Cabeçalho -->
-    
-    <img class="logotipo" src="img/logotipo.png" alt="Fatec Itapira">
-        
-    <p class="telefone"> 
-        (19) 3863-5210
-    </p>
-
-    <p class="whatsapp"> 
-        (19) 98933-6291
-    </p>
-
-    <img class="whatsapp-img" src="img/whatsapp.png" alt="whatsapp">
-    <img class="telefone-img" src="img/telefone.png" alt="telefone">
-    <img class="youtube-img" src="img/youtube.png" alt="youtube Fatec">
-    <img class="facebook-img" src="img/facebook.png" alt="Facebook Fatec">
-    
-    
-</header><!-- Fim Conteúdo do cabeçalho -->
-
-
-<div class ="menu-faixa"><!-- Menu Principal -->
-    <nav class="menu-acima">
-        <ul>
-            <li><a	href="#">HOME</a></li>
-            <li><a	href="#gpi">Cursos</a></li>
-            <li><a	href="#">Cursos de Extensão</a></li>
-            <li><a	href="#">Vestibular</a></li>
-            <li><a	href="#">Alunos</a></li>
-            <li><a	href="#">Professores</a></li>
-        </ul>
-    </nav> 
-</div><!-- Fim Menu Principal -->
+<div id="header"></div>
+<div id="menuprincipal"></div>
 
 
 <div class ="main"><!-- Conteúdo Principal -->
            
-    <nav class="menu-lateral"><!-- Menu Lateral -->
-    <h2>INSTITUCIONAL</h2>
-    <hr>
-    <ul>
-        <li> <img src="img/seta.png" alt=""> <a	href="index.html">Fatec Itapira</a></li>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">Estrutura Organizacional</a></li>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">Congregação</a></li>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">Regimentos</a></li>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">Diretoria de Serviços Acadêmicos</a></li>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">Administrativo</a></li>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">Concursos</a></li>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">Processos Seletivos Simplificados</a></li>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">CPA</a></li>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">Calendáro Acadêmico</a></li>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">Estágio</a></li>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">Trabalho de Graduação</a></li>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">Monitoria e Iniciação Científica</a></li>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">Fale Conosco</a></li>
-    </ul>
-    <h2 id="rapido">Serviços</h2>
-    <hr>
-    <ul>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">Microsoft Imagine</a></li>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">E-mail Institucional</a></li>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">SIGA - Alunos</a></li>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">Siga - Professores</a></li>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">Demostrativo On-line</a></li>
-        <li> <img src="img/seta.png" alt=""> <a	href="#">Recadastramento Anual</a></li>
-    </ul>
-    </nav><!--	Fim Menu lateral -->
-
-
+    <div id="menulateral"></div>
     <div class="main-direita"> <!-- Conteúdo Central -->
 
         <div class="main-bground"><!-- BackGround -->
@@ -206,70 +153,8 @@
     
 </div><!-- Fim Conteúdo Principal -->
 
-<div class="banner-cursos">
-
-
-    <figure class="curso-gpi"><!-- GPI -->
-        <img src="img/gpi_fundo_escuro.jpg" alt="Gestão da Produção Industrial">
-        <figcaption>
-            <h1 id="gpi">Gestão da Produção Industrial</h1>
-            <h2>Organizações industriais, com a busca da melhoria da qualidade e produtividade industrial</h2>
-    </figcaption>
-    <a id="gpi" href="#">Veja esse curso...</a>
-    </figure><!-- Fim GPI -->
-
-
-    <figure class="curso-gti"><!-- GTI -->
-        <img src="img/gti_fundo_escuro.jpg" alt="Gestão da Tecnologia da Informação">
-        <figcaption>
-            <h1 id="gti">Gestão da Tecnologia da Informação</h1>
-            <h2>Segmento da área de informática que abrange a administração dos recursos de infra-estrutura física e lógica dos ambientes informatizados</h2>
-    </figcaption>
-    <a id="gti" href="#">Veja esse curso...</a>
-    </figure><!-- Fim GTI -->
-
-
-    <figure class="curso-ge"><!-- GE -->
-        <img src="img/ge_fundo_escuro.jpg" alt="Gestão Empresarial">
-        <figcaption>
-            <h1 id="ge">Gestão Empresarial</h1>
-            <h2>Planeja atividades e recursos, na organização do trabalho e na gestão de pessoas</h2>
-    </figcaption>
-    <a id="ge" href="#">Veja esse curso...</a>
-    </figure><!-- Fim GE -->
-
-</div>
-
-
-<div class="rodape-info">
-    
-    <div class="conteudo1">
-        <div class="conteudo1-linha">_</div>
-        <h1>Fatec Itapira</h1>
-        <h2><b>Endereço: </b>Rua Tereza Lera Paoletti, 570 - Jardim Bela Vista </h2>
-        <h2><b>CEP: </b>13974-080</h2>
-        <h2><b>Telefones: </b>(19) 3843-1996 / 3863-5210</h2>
-        <h2><b>Whatsapp: </b>(19) 98933-6291</h2>
-        <h2><b>E-mail: </b>contato@fatecitapira.edu.br</h2>
-    </div>
-
-    <div class="conteudo2">
-        <img class="logo_cps" src="img/logocps.png" alt="Centro Paula Souza">
-
-    </div>
-
-    <div class="conteudo3">
-            <div class="conteudo3-linha">_</div>
-            <h1>Depoimentos Alunos</h1>
-            <img class="img-depoimentos" src="img/depoimentos/modelo.png" alt="">
-            <h2>"A fatec foi de grande ajuda para conseguri meu primeiro emprego na área de tecnologia"</h2>
-            <h3>Fulano de Tal - Aluno de GTI</h3>
-    </div>
-
-</div>
-
-<div class="rodape">Copyright &COPY; 2019 Fatec Itapira - Todos os Direitos Reservados - Desenvolvido por Equipe T.I. da Fatec 
-</div>
+<div id="bannercursos"></div>
+<div id="footer"></div>
 
 </body>
 </html>
