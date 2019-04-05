@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.main-direita ul {
+    margin-right: 20px;
+    margin-left: -20px;
+}
+
+.main-direita ul li{
+    padding: 10px;
+    list-style: none;
+    font-size: 14px;
+    border-bottom: 1px solid #d3d2d2;
+}
+
+.main-direita a {
+    text-decoration:none; 
+    color: #858788;
+}
+
+.main-direita a:hover {
+    color: #000000;
+}
+
+.main-direita a:active {
+    color: #be1e10;
+}
