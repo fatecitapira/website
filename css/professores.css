@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.main-direita ul {
+    padding: 10px;
+}
+
 .main-direita ul li{
     list-style: none;
     padding: 5px;
@@ -17,4 +21,9 @@
 
 .main-direita a:active {
     color: #000000;
+}
+
+.main-direita img {
+    position: absolute;
+    margin-top: 2px;
 }
