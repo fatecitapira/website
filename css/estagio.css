@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.main-direita a {
+    text-decoration:none; 
+    color: #19539e;
+    font-weight: bolder;
+}
+
+.main-direita a:hover {
+    color: #858788;
+}
+
+.main-direita a:active {
+    color: #000000;
+}
+
+.main-direita img {
+    position: absolute;
+    margin-top: 2px;
+}   
+
+#horarios {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+#horarios td th {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
+#horarios tr:nth-child(even){background-color: #f2f2f2}
+
+#horarios tr:hover {background-color: #ddd;}
+
+#horarios th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #19539e;
+    color: white;
+}
