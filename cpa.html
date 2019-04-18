@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fatec Itapira</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 420px)">
+    <link rel="stylesheet" href="css/cpa.css">
+    <script src="js/jquery.js"></script>
+    <script>
+    
+            $(function(){
+                $("#header").load("header.html");
+                $("#menuprincipal").load("menuprincipal.html");
+                $("#menulateral").load("menulateral.html");
+                $("#bannercursos").load("bannercursos.html");
+                $("#footer").load("footer.html");
+            });
+        
+        </script>
+</head>
+
+<body>
+<input type="checkbox" id="bt_menu"/>
+<label for="bt_menu">&#9776;</label>
+<div id="header"></div>
+<div id="menuprincipal"></div>
+
+
+<div class ="main"><!-- Conteúdo Principal -->
+           
+    <div id="menulateral"></div>
+    <div class="main-direita"> <!-- Conteúdo Central -->
+        <h1 id="titulomain">CPA - COMISSÃO PRÓPRIA DE AVALIAÇÃO</h1>
+        <h2 id="conteudomaindata">Publicado: 17/04/2019</h2>
+        <h2 id="conteudomainatualizado">Atualizado: 17/04/2019</h2>
+
+        <p id="conteudomain"><a href="https://docs.google.com/forms/d/1GoaZVuRKZvIordF2F1BUQlBKzy199vDUTMnGJaRLVcQ/viewform?edit_requested=true#responses" target="_blank">Questionário Docentes</a></p>
+
+        <p id="conteudomain">De acordo com a Lei 10.861/04, toda Instituição de Ensino Superior deve participar do Sistema Nacional de Avaliação da Educação Superior (SINAES). Assim, além de participar das avaliações externas, as Fatecs devem realizar internamente um processo de auto avaliação institucional, por meio do qual professores, alunos e técnicos administrativos são chamados a se manifestar. Esse processo é coordenado pela CPA (Comissão Própria de Avaliação) e tem como finalidade melhorar a qualidade da formação, da produção do conhecimento e da extensão. Os dados coletados através de avaliações (questionários) permitem ainda que sejam identificadas áreas problemáticas ou carentes de adequado investimento institucional, apontando exatamente os setores que requerem melhorias.</p>
+
+        <p id="conteudomain"><b>Presidente da CPA: </b>Prof. Dr. José Celso Sobreiro Dias</p>
+
+        <p id="conteudomain"><b>Representante do corpo docente: </b>Prof. Dr. Joaquim Maria Ferreira Antunes Neto
+        <br>
+        <b>Suplente: </b>Prof. Me. Márcia Regina Reggiolli       
+        </p>
+
+        <p id="conteudomain"><b>Representante do corpo técnico administrativo: </b>Vinycius Gomes Cruz
+        <br>
+        <b>Suplente: </b>Aline Aparecida Moraes Brinhole    
+        </p>
+
+        <p id="conteudomain"><b>Representante do corpo discente: </b>Dayana Dalva Borges
+        <br>
+        <b>Suplente: </b>Natália Porfírio Rossi
+        </p>
+
+        <p id="conteudomain"><b>Representante da comunidade externa:  </b>José Ricardo Gomes Ferreira
+        <br>
+        <b>Suplente: </b>Altemir Poli
+        </p>
+
+    </div> <!-- Fim Conteúdo Central -->   
+    
+</div><!-- Fim Conteúdo Principal -->
+
+<div id="bannercursos"></div>
+<div id="footer"></div>
+
+</body>
+</html>
