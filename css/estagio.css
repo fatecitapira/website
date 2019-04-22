@@ -22,12 +22,12 @@
 #horarios {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     width: 100%;
+    font-size: 12px;
 }
 
-#horarios td th {
+#horarios tr th {
     border: 1px solid #ddd;
     text-align: center;
-    padding: 8px;
 }
 
 #horarios tr:nth-child(even){background-color: #f2f2f2}

@@ -663,6 +663,20 @@ a.mais-noticias:active {
     color: white;
 }
 
+.conteudo3 a {
+    text-decoration:none; 
+    color: #19539e;
+    font-weight: bold;
+}
+
+.conteudo3 a:hover {
+    color: #858788;
+}
+
+.conteudo3 a:active {
+    color: #000000;
+}
+
 
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */

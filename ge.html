@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fatec Itapira</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 420px)">
+    <link rel="stylesheet" href="css/cursos.css">
+    <link rel="stylesheet" href="css/cursos-mobile.css" media="(max-width: 420px)">
+    <script src="js/jquery.js"></script>
+    <script>
+    
+            $(function(){
+                $("#header").load("header.html");
+                $("#menuprincipal").load("menuprincipal.html");
+                $("#menulateral").load("menulateral.html");
+                $("#bannercursos").load("bannercursos.html");
+                $("#footer").load("footer.html");
+            });
+        
+        </script>
+</head>
+
+<body>
+<input type="checkbox" id="bt_menu"/>
+<label for="bt_menu">&#9776;</label>
+<div id="header"></div>
+<div id="menuprincipal"></div>
+
+
+<div class ="main"><!-- Conteúdo Principal -->
+           
+    <div id="menulateral"></div>
+    <div class="main-direita"> <!-- Conteúdo Central -->
+        <h1 id="titulomain">GESTÃO EMPRESARIAL</h1>
+        <img src="img/cursos/ge.jpg" alt="ge">
+        <h2 id="conteudomaindata">Publicado: 22/04/2019</h2>
+        <h2 id="conteudomainatualizado">Atualizado: 22/04/2019</h2>
+        <p id="conteudomain">Contabilidade, economia e administração são as bases do curso de Gestão Empresarial, assim como direito tributário, logística, empreendedorismo, gestão ambiental, comportamento organizacional (postura do profissional no ambiente de trabalho) e utilização de ferramentas de marketing para motivar e orientar os funcionários. O profissional dessa área aprende a elaborar o planejamento estratégico, define os objetivos de uma empresa e traça estratégias para alcançá-los, usando os recursos disponíveis de maneira eficiente.</p>
+
+        <p id="conteudomain">O tecnólogo em Gestão Empresarial atua diretamente no planejamento de atividades e recursos, na organização do trabalho e na gestão de pessoas - quem é responsável por determinada função, como deve ser o desempenho etc. Controla as atividades e monitora o cumprimento das tarefas. O profissional precisa ter a visão de uma empresa como um todo. Por sua formação generalista, o tecnólogo em Gestão Empresarial pode trabalhar em empresas públicas e privadas de qualquer segmento ou gerir um negócio próprio.  </p>
+
+        <p id="conteudomain"><b>Duração:</b> 6 semestres</p>
+
+        <p id="conteudomain"><b>Vagas:</b> 40</p>
+
+        <p id="conteudomain"><b>Período:</b> noturno (19h00 às 22h30)</p>
+
+        <p id="conteudomain"><b>Coordenador:</b> Vagner Ribeiro dos Santos</p>
+
+    </div> <!-- Fim Conteúdo Central -->   
+    
+</div><!-- Fim Conteúdo Principal -->
+
+<div id="bannercursos"></div>
+<div id="footer"></div>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.main-direita a {
+    text-decoration:none; 
+    color: #19539e;
+    font-weight: bolder;
+}
+
+.main-direita a:hover {
+    color: #858788;
+}
+
+.main-direita a:active {
+    color: #000000;
+}
+
+.main-direita img {
+    max-width: 670px;
+}
