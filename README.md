@@ -1,9 +1,5 @@
 # website
 
-- e-mails professores
-- fale conosco
-- 
- 
 FALE CONOSCO:
 Fatec de Itapira “Ogari de Castro Pacheco” 
 Aqui seu futuro acontece 

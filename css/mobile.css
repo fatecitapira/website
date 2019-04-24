@@ -10,6 +10,7 @@ label[for="bt_menu"]{
 
 #bt_menu:checked ~ .main nav {
     transform: translate(0%, 0);
+    display: block;
 }
 
 
@@ -96,6 +97,7 @@ header {
     z-index: 1;
     transition: all .4s;
     transform: translate(200%, 0);
+    display: none;
 }
 
 
