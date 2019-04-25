@@ -15,6 +15,32 @@
 }
 
 .main-direita img {
-    position: absolute;
-    margin-top: 2px;
+    position: relative;
+    width: 95px;
+}
+
+#docentes {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 14px;
+}
+
+#docentes tr th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#docentes tr:nth-child(even){background-color: #f2f2f2}
+
+#docentes tr:hover {background-color: #ddd;}
+
+#docentes th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #19539e;
+    color: white;
+}
+
+#docentes tr td {
+    padding: 5px;
 }

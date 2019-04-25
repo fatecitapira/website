@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+.main-direita ol {
+    margin-right: 20px;
+    margin-left: -20px;
+}
+
+.main-direita ol li{
+    padding: 10px;
+    list-style: none;
+    font-size: 14px;
+    border-bottom: 1px solid #d3d2d2;
+}
+
 .main-direita a {
     text-decoration:none; 
     color: #19539e;

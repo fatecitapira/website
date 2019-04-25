@@ -1,6 +1,6 @@
 # website
 
-FALE CONOSCO:
+- FALE CONOSCO:
 Fatec de Itapira “Ogari de Castro Pacheco” 
 Aqui seu futuro acontece 
 Rua Tereza Lera Paoletti, 590, Jardim Bela Vista 
