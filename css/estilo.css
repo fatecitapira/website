@@ -88,7 +88,7 @@ header {
 .youtube-img {
     position: absolute;
     padding-right: 60px;
-    padding-top: 40px;
+    padding-top: 60px;
     top: 0;
     right: 0;
 }
@@ -96,7 +96,23 @@ header {
 .facebook-img {
     position: absolute;
     padding-right: 10px;
-    padding-top: 40px;
+    padding-top: 60px;
+    top: 0;
+    right: 0;
+}
+
+.twitter-img {
+    position: absolute;
+    padding-right: 60px;
+    padding-top: 15px;
+    top: 0;
+    right: 0;
+}
+
+.instagram-img {
+    position: absolute;
+    padding-right: 10px;
+    padding-top: 15px;
     top: 0;
     right: 0;
 }
@@ -228,6 +244,22 @@ header {
     list-style: none;
     font-size: 14px;
     border-bottom: 1px solid #d3d2d2;
+}
+
+.menu-lateral ul li ul li {
+    margin-left: -20px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-bottom: 0px
+}
+
+.menu-lateral	ul li ul {
+    display: none;
+}
+
+.menu-lateral li:hover ul	{
+    display: block;
 }
 
 .menu-lateral a {
