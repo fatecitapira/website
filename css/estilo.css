@@ -288,13 +288,12 @@ header {
 .main-bground figure img {
     max-width: 100%;
     max-height: 100%;
-    border-bottom: 20px solid #2e3e46;
     position: relative;
 }
 
 .main-bground figcaption {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #b00b18;
+    color: white;
     position: absolute;
     top: 0%;
     left: 30px;
@@ -305,19 +304,19 @@ header {
 }
 
 .main-bground figcaption h2 {
-    font-size: 33px;
-    margin-top: -10px;
-    margin-bottom: 40px;
+    font-size: 26px;
+    margin-top: 130px;
+    margin-bottom: 20px;
 }
 
 .main-bground figcaption a {
-    font-size: 18px;
+    font-size: 26px;
     margin-left: 30px;
-    border: 1px solid #b00b18;
-    color: #b00b18;
+    border: 1px solid rgb(184, 184, 91);
+    color: rgb(184, 184, 91);
     padding: 8px;
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-left: 18px;
+    padding-right: 18px;
     text-decoration:none; 
     font-weight: lighter;
 }
@@ -330,6 +329,52 @@ header {
 .main-bground figcaption a:active {
     color: #be1e10;
 }
+
+
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
+/**  BackGround Central(Vest)  **/
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
+.main-vest{
+    border-bottom: 7px solid #2e3e46;   
+}
+
+.main-vest figure {
+    max-width: 670px;   
+    margin: 0; 
+    margin-bottom: 100px;
+}
+
+.main-vest figure img {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+.main-vest figure a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    margin-left: 30px;
+    border: 1px solid #be1e10;
+    color: #be1e10;
+    padding: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-decoration:none; 
+    font-weight: lighter;
+    position: absolute;
+    right: 0px;
+}
+
+.main-vest figure a:hover {
+    color: #2e3e46;
+    border: 1px solid #2e3e46;
+}
+
+.main-vest figure a:active {
+    color: black;
+}
+
 
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */

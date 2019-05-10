@@ -122,16 +122,28 @@ header {
 }
 
 .main-bground figcaption h2 {
-    font-size: 24px;
+    margin-top: 70px;
+    font-size: 18px;
     margin-left: -10px;
 }
 
 .main-bground figcaption a {
-    font-size: 10px;
+    font-size: 14px;
     margin-left: -20px;
     padding: 6px;
     padding-left: 8px;
     padding-right: 8px;
+}
+
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
+/****  BackGround Central(Vest)  ****/
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
+/*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */
+
+.main-vest figure a {
+    font-size: 18px;
+    margin-left: 30px;
 }
 
 /*  =-=-=-=-=-=-=-=-=-=-=-=-=-  */

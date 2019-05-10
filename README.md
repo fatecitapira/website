@@ -1,12 +1,19 @@
 # website
 
-Editais / PSS (*tabela*)
-FALE CONOSCO
-Gameday (link)
+Confirmado:
+- Estário (email romão)
+- Concursos / PSS / Editais (*tabela*)
+- FALE CONOSCO
 
-Estário (email romão)
-GTI (mail mateus)
-Secretaria (mail dani)
+A confirmar...
+- Serviços Acadêmicos (mail dani ???)
+- Serviços Administrativos (VAZIO)
+- Vagas Remanescentes (VAZIO)
+- Edital de Transferência (VAZIO)
+- Horários de Aula (VAZIO)
+- TG (VAZIO)
+- Monitoria (VAZIO)
+
 
 *tabela*
 nº edital / curso / disciplina / hr aula / edital resultado banca deferimentos
