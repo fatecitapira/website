@@ -1,7 +1,6 @@
 # website
 
 Confirmado:
-- Estário (email romão)
 - Concursos / PSS / Editais (*tabela*)
 - FALE CONOSCO
 

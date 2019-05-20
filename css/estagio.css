@@ -40,3 +40,8 @@
     background-color: #19539e;
     color: white;
 }
+
+#img-down {
+    position: relative;
+    max-width: 20px;
+}
