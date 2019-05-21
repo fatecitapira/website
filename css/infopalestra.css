@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.main-direita a {
+    text-decoration:none; 
+    color: #19539e;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.main-direita a:hover {
+    color: #858788;
+}
+
+.main-direita a:active {
+    color: #000000;
+}
+
+.main-direita img {
+    position: absolute;
+    margin-top: 2px;
+}
+
+#img {
+    position: relative;
+    max-width: 100%;
+}

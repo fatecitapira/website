@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fatec Itapira</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 420px)">
+    <link rel="stylesheet" href="css/infopalestra.css">
+    <script src="js/jquery.js"></script>
+    <script>
+    
+            $(function(){
+                $("#header").load("header.html");
+                $("#menuprincipal").load("menuprincipal.html");
+                $("#menulateral").load("menulateral.html");
+                $("#bannercursos").load("bannercursos.html");
+                $("#footer").load("footer.html");
+            });
+        
+        </script>
+</head>
+
+<body>
+<input type="checkbox" id="bt_menu"/>
+<label for="bt_menu">&#9776;</label>
+<div id="header"></div>
+<div id="menuprincipal"></div>
+
+
+<div class ="main"><!-- Conteúdo Principal -->
+           
+    <div id="menulateral"></div>
+    <div class="main-direita"> <!-- Conteúdo Central -->
+        
+
+        <img id="img" src="img/noticias/contabilidade.jpg" alt="">
+
+        
+
+        <p id="conteudomain"><a href="https://docs.google.com/forms/d/1GmMfN5BkjsFcSc7GqRv_4oGCOchGJZ5RwU_z67bT3JM/" target="_Blank">Faça sua inscrição </a></p> 
+
+    </div> <!-- Fim Conteúdo Central -->   
+    
+</div><!-- Fim Conteúdo Principal -->
+
+<div id="bannercursos"></div>
+<div id="footer"></div>
+
+</body>
+</html>
