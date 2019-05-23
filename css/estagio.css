@@ -41,6 +41,28 @@
     color: white;
 }
 
+#equivalencia {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 12px;
+}
+
+#equivalencia tr th {
+    border: 1px solid rgb(183, 186, 196);
+    text-align: center;
+}
+
+#equivalencia tr:nth-child(even){background-color: #9a9da7}
+
+#equivalencia tr:hover {background-color: #ddd;}
+
+#equivalencia th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #19539e;
+    color: white;
+}
+
 #img-down {
     position: relative;
     max-width: 20px;
