@@ -5,7 +5,7 @@ Confirmado:
 - FALE CONOSCO
 
 A confirmar...
-- Serviços Acadêmicos (mail dani ???)
+- Serviços Acadêmicos (confirmar mail dani ???)
 - Serviços Administrativos (VAZIO)
 - Vagas Remanescentes (VAZIO)
 - Edital de Transferência (VAZIO)
