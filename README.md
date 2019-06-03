@@ -7,8 +7,6 @@ Confirmado:
 A confirmar...
 - Serviços Acadêmicos (confirmar mail dani ???)
 - Serviços Administrativos (VAZIO)
-- Vagas Remanescentes (VAZIO)
-- Edital de Transferência (VAZIO)
 - Horários de Aula (VAZIO)
 - TG (VAZIO)
 - Monitoria (VAZIO)
