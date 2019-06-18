@@ -12,4 +12,32 @@
 
 .main-direita a:active {
     color: #000000;
+} 
+
+#horarios {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 12px;
+}
+
+#horarios tr th {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#horarios tr td {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#horarios tr:nth-child(even){background-color: #d3d0d0}
+
+#horarios tr:hover {background-color: #ddd;}
+
+#horarios th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #19539e;
+    color: white;
 }
