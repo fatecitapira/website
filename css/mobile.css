@@ -122,13 +122,12 @@ header {
 }
 
 .main-bground figcaption h2 {
-    margin-top: 70px;
-    font-size: 18px;
+    font-size: 24px;
     margin-left: -10px;
 }
 
 .main-bground figcaption a {
-    font-size: 14px;
+    font-size: 10px;
     margin-left: -20px;
     padding: 6px;
     padding-left: 8px;
