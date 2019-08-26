@@ -1,5 +1,6 @@
 # website
 
+- organizar estrutura (URGENTE)
 - FALE CONOSCO (JS)
 - Editais (interno / externo)
 
