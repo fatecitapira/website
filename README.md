@@ -1,7 +1,9 @@
 # website
 
+PENDÊNCIAS:
+
 - organizar estrutura (URGENTE)
-- FALE CONOSCO (JS)
+- FALE CONOSCO
 - Editais (interno / externo)
 
 - Serviços Acadêmicos (Dani)
