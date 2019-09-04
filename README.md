@@ -2,7 +2,7 @@
 
 PENDÊNCIAS:
 
-- organizar estrutura (URGENTE)
+- organizar estrutura
 - FALE CONOSCO
 - Editais (interno / externo)
 
