@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+#titulomain {
+    text-align: left;
+    font-size: 18pt;
+}
+
+.divform {
+    width: 600px;
+}
+
+form label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color: #2e3e46;
+    font-weight: bold;
+    float: left;
+}
+form input, select, textarea, option {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border: 1px solid rgb(97, 96, 96);
+    padding: 8px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    width: 100%;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+form input:hover, select:hover, textarea:hover {
+    border: 1px solid #b00b18;    
+}
+
+.btn_submit {
+    font-size: 16px;
+    padding: 8px;
+    background-color:#b00b18;
+    border:1px solid white;
+    color:#fff;
+    margin-left: 10px;
+}
+
+.btn_submit:hover{
+    border:1px solid rgb(185, 181, 181);
+    color:rgb(226, 221, 221);
+    cursor: pointer;
+}   

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fatec Itapira</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 420px)">
+    <link rel="stylesheet" href="css/faleconosco.css">
+    <link rel="stylesheet" href="css/faleconosco_mobile.css" media="(max-width: 420px)">
+    <script src="js/jquery.js"></script>
+    <script>
+    
+            $(function(){
+                $("#header").load("header.html");
+                $("#menuprincipal").load("menuprincipal.html");
+                $("#menulateral").load("menulateral.html");
+                $("#bannercursos").load("bannercursos.html");
+                $("#footer").load("footer.html");
+            });
+        
+        </script>
+</head>
+
+<body>
+<input type="checkbox" id="bt_menu"/>
+<label for="bt_menu">&#9776;</label>
+<div id="header"></div>
+<div id="menuprincipal"></div>
+
+
+<div class ="main"><!-- Conteúdo Principal -->
+           
+    <div id="menulateral"></div>
+    <div class="main-direita"> <!-- Conteúdo Central -->
+        <h1 id="titulomain">Contato</h1> 
+        
+        <div class="divform">
+        <form method="POST" id="formcontato" action="">
+                <p>
+                    <label for="Nome">Nome</label><br>
+                    <input name="Nome" class="campo_nome" type="text" placeholder="Informe seu nome">
+                </p>
+    
+                <p>
+                    <label for="Email">E-mail</label><br>
+                    <input name="Email" class="campo_email" type="text" placeholder="Informe seu e-mail">
+                </p>
+    
+                <p>
+                    <label for="Celular">Celular</label><br>
+                    <input name="Celular" class="campo_celular" type="text" placeholder="Informe seu Celular">
+                </p>
+    
+                <p>
+                    <label for="Setor">Setor</label><br>
+                    <select name="Setor" class="setor" classe= "campo_setor">
+                            <option value="f278dir@cps.sp.gov.br">Diretoria Geral</option>
+                            <option value="f278admadm@cps.sp.gov.br">Diretoria de Serviços Administrativos</option>
+                            <option selected="selected" value="f278acad@cps.sp.gov.br">Diretoria de Serviços Acadêmicos (Secretaria)</option>
+                            <option value="">Coordenação de Gestão da Tecnologia da Informação</option>
+                            <option value="">Coordenação de Gestão da Produção Industrial</option>
+                            <option value="">Coordenação de Gestão Empresarial</option>
+                        </select>
+                </p>
+    
+                <p>
+                    <label for="Mensagem">Mensagem:</label><br>
+                    <textarea class="campo_msg" cols="35" rows="8" placeholder="Insira a mensagem aqui"></textarea><br>
+    
+                </p>
+                
+                <button class="btn_submit" type="submit">Enviar Mensagem </button>
+    
+    
+            </form>
+        </div>
+        
+
+
+    </div> <!-- Fim Conteúdo Central -->   
+    
+</div><!-- Fim Conteúdo Principal -->
+
+<div id="bannercursos"></div>
+<div id="footer"></div>
+
+</body>
+</html>
