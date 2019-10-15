@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fatec Itapira</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 420px)">
+    <link rel="stylesheet" href="css/infopalestra.css">
+    <script src="js/jquery.js"></script>
+    <script>
+    
+            $(function(){
+                $("#header").load("header.html");
+                $("#menuprincipal").load("menuprincipal.html");
+                $("#menulateral").load("menulateral.html");
+                $("#bannercursos").load("bannercursos.html");
+                $("#footer").load("footer.html");
+            });
+        
+        </script>
+</head>
+
+<body>
+<input type="checkbox" id="bt_menu"/>
+<label for="bt_menu">&#9776;</label>
+<div id="header"></div>
+<div id="menuprincipal"></div>
+
+
+<div class ="main"><!-- Conteúdo Principal -->
+           
+    <div id="menulateral"></div>
+    <div class="main-direita"> <!-- Conteúdo Central -->
+        <h1 id="titulomain">5ª FATEC EM FOCO - AQUI SEU FUTURO ACONTECE</h1>
+        <h2 id="conteudomainatualizado">Atualizado: 15/09/2019</h2>
+        
+
+        <img id="img" src="img/noticias/fatecemfoco2019.jpg" alt="">
+
+        <p id="conteudomain" style="text-indent: 0em;"><b>EVENTO:</b></p>
+
+        <p id="conteudomain" style="text-indent: 0em;"> A idealização do “Fatec em Foco – Aqui seu futuro acontece” ocorreu há cinco anos com a proposta de estreitar os laços entre a sociedade e a comunidade acadêmica da faculdade. A programação prevê a divulgação dos cursos e projetos desenvolvidos pelos estudantes além da exposição de produtos e serviços das empresas parceiras. Ao visitar os estandes, os participantes têm a oportunidade de conhecer melhor o ramo de atuação das empresas, firmar parcerias, contratar serviços e até mesmo se candidatar as vagas de empregos.</p>
+
+        <p id="conteudomain" style="text-indent: 0em;"><b>PROGRAMAÇÃO 2019:</b></p>
+
+        <p id="conteudomain" style="text-indent: 0em;">
+            <b>Palestra:</b> “Como melhorar o seu currículo” – 19h30 <br>
+            Julio Brandine (Diretor Executivo da invoiSys) e Raphael Colferai (Ex-gerente Sr. da Thomson Reuters, em Campinas-SP) <br>
+            Evento aberto ao público (Vagas limitadas) - <a href="https://www.sympla.com.br/palestra--como-melhorar-o-curriculo__682809" target="_Blank">Inscrições</a> 
+        </p>
+
+        <p id="conteudomain" style="text-indent: 0em;">
+            <b>Show </b> <br>Diogo Sena <br>Hud Henrique
+        </p>
+
+        <p id="conteudomain" style="text-indent: 0em;">
+            <b>Praça de Alimentação </b> <br>Alex Fião (lanches, pastel e salgados) <br>Nômade Café
+        </p>
+
+        <p id="conteudomain" style="text-indent: 0em;">
+            <b>Atrações</b>
+            <br>Piscina de bolinhas para a garotada
+            <br>Campeonato de Yu-Gi-Oh!
+            <br>Campeonato de vídeo game
+            <br>Sorteio de brindes
+            <br>Distribuição de mudas de hortaliças (se possível traga o recipiente para levar sua mudinha para casa já plantada)
+            <br>Corte de cabelo e esmaltação de unhas
+            <br>Aferição de pressão e muito mais!!!
+        </p>
+
+    </div> <!-- Fim Conteúdo Central -->   
+    
+</div><!-- Fim Conteúdo Principal -->
+
+<div id="bannercursos"></div>
+<div id="footer"></div>
+
+</body>
+</html>
