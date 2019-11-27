@@ -41,3 +41,8 @@
     background-color: #19539e;
     color: white;
 }
+
+img {
+    position: relative;
+    max-width: 100%;
+}
