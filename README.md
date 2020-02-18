@@ -2,13 +2,15 @@
 
 PENDÊNCIAS:
 
-- Fale Conosco (URGENTE)
+- Fale Conosco
     - HTML updates (menulateral, faleconosco)
     - CSS updates (faleconosco, faleconosco_mobile)
-- Editais interno - externo (URGENTE)
+- Editais interno - externo
+- Comunicados (criar / desenvolver)
+- Serviços Academicos (forms solicitação) [dani]
+- Edital Transf. (ocultar?) [dani]
+- Mostra trabalhos [coordenadores]
+- TG [coordenadores]
+- Estrutura
 
-=-=-=-=-=-=-=-=-=-=-=-=-=-
-
-- organizar estrutura de pastas
-- Serviços Acadêmicos (Dani)
-- Serviços Administrativos (Josi)
+=-=-=-=-=-=-=-=-=-=-=-=-=
