@@ -10,7 +10,5 @@ PENDÊNCIAS:
 - Serviços Academicos (forms solicitação) [dani]
 - Edital Transf. (ocultar?) [dani]
 - Mostra trabalhos [coordenadores]
-- TG [coordenadores]
-- Estrutura
 
 =-=-=-=-=-=-=-=-=-=-=-=-=

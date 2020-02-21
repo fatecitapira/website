@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fatec Itapira</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 420px)">
+    <link rel="stylesheet" href="css/estagio.css">
+    <link rel="stylesheet" href="css/estagio-mobile.css" media="(max-width: 420px)">
+    <script src="js/jquery.js"></script>
+    <script>
+    
+            $(function(){
+                $("#header").load("header.html");
+                $("#menuprincipal").load("menuprincipal.html");
+                $("#menulateral").load("menulateral.html");
+                $("#bannercursos").load("bannercursos.html");
+                $("#footer").load("footer.html");
+            });
+        
+        </script>
+</head>
+
+<body>
+<input type="checkbox" id="bt_menu"/>
+<label for="bt_menu">&#9776;</label>
+<div id="header"></div>
+<div id="menuprincipal"></div>
+
+
+<div class ="main"><!-- Conteúdo Principal -->
+           
+    <div id="menulateral"></div>
+    <div class="main-direita"> <!-- Conteúdo Central -->
+        <h1 id="titulomain">Trabalho de Graduação - TG</h1>
+        <h2 id="conteudomainatualizado">Atualizado: 20/02/2020</h2>
+        <p id="conteudomain">O Trabalho de Graduação  consiste em uma pesquisa (teórica e/ou prática) de caráter individual ou em dupla, orientada por um docente, apresentada na forma de monografia e/ou artigo científico, nas áreas abrangidas pelo currículo do Curso.</p>
+
+        <p id="conteudomain">Os objetivos gerais do Trabalho de Graduação são os de propiciar aos alunos do Curso Superior em Tecnologia a ocasião de demonstrar o grau de habilitação adquirido, o aprofundamento temático, o estímulo à produção científica e a capacidade de interpretação crítica nas áreas abrangidas do Curso.</p>
+
+        <p id="conteudomain" style="text-indent: 0em;">O Trabalho de Graduação contará com o apoio das disciplinas:
+          <br><br>
+          <strong>GTI</strong> – Projeto da Tecnologia da Informação I e II;
+          <br>
+          <strong>GPI</strong> – Projeto de Trabalho de Graduação I e II;
+          <br>
+          <strong>GE</strong> – Projeto de Trabalho de Graduação;
+        </p>
+
+        
+
+               
+        <table id="horarios" style="text-indent: 0em;">
+          <tr>
+            <td><a href="files/tg/000-regulamentoTG.pdf" target="_blank">Regulamento de Trabalho de Graduação</a></td>
+            <td style="width: 5%;"><a href="files/tg/000-regulamentoTG.pdf" target="_blank"><img id="img-down" src="img/download_icon.png" alt="download"></a></td>
+          </tr>
+
+          <tr>
+            <td><a href="files/tg/003-template_pre_projeto_pesquisa.doc" target="_blank">Template de Pré Projeto  - Trabalho de Graduação I</a></td>
+            <td style="width: 5%;"><a href="files/tg/003-template_pre_projeto_pesquisa.doc" target="_blank"><img id="img-down" src="img/download_icon.png" alt="download"></a></td>
+          </tr>
+
+          <tr>
+            <td><a href="files/tg/004-template_projeto_pesquisa.docx" target="_blank">Template Projeto de Pesquisa - Trabalho de Graduação II</a></td>
+            <td style="width: 5%;"><a href="files/tg/004-template_projeto_pesquisa.docx" target="_blank"><img id="img-down" src="img/download_icon.png" alt="download"></a></td>
+          </tr>
+
+          <tr>
+            <td><a href="files/tg/001-GPI-cartaaceite.docx" target="_blank">Carta de Aceite de Orientador</a></td>
+            <td style="width: 5%;"><a href="files/tg/001-GPI-cartaaceite.docx" target="_blank"><img id="img-down" src="img/download_icon.png" alt="download"></a></td>
+          </tr>
+
+          <tr>
+            <td><a href="files/tg/002-GPI-ficha_controle_acompanhamento.docx" target="_blank">Ficha de Controle de Acompanhamento</a></td>
+            <td style="width: 5%;"><a href="files/tg/002-GPI-ficha_controle_acompanhamento.docx" target="_blank"><img id="img-down" src="img/download_icon.png" alt="download"></a></td>
+          </tr>
+         
+        </table>
+
+
+    </div> <!-- Fim Conteúdo Central -->   
+    
+</div><!-- Fim Conteúdo Principal -->
+
+<div id="bannercursos"></div>
+<div id="footer"></div>
+
+</body>
+</html>
