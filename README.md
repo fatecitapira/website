@@ -3,12 +3,13 @@
 PENDÊNCIAS:
 
 - Fale Conosco
-    - HTML updates (menulateral, faleconosco)
-    - CSS updates (faleconosco, faleconosco_mobile)
-- Editais interno - externo
+    > HTML updates (menulateral, faleconosco)
+    
+    > CSS updates (faleconosco, faleconosco_mobile)
+
+- Editais interno e externo
 - Comunicados (criar / desenvolver)
 - Serviços Academicos (forms solicitação) [dani]
-- Edital Transf. (ocultar?) [dani]
 - Mostra trabalhos [coordenadores]
 
 =-=-=-=-=-=-=-=-=-=-=-=-=
