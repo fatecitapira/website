@@ -31,7 +31,8 @@ header {
 }
 
 .youtube-img,
-.facebook-img{
+.facebook-img,
+.whatsapp-img{
     margin-top: 60px;
 }
 
@@ -45,10 +46,16 @@ header {
     margin-right: 150px;
 }
 
+.whatsapp-img {
+    position: absolute;
+    padding-right: 60px;
+    padding-top: 60px;
+    margin-right: 150px;
+}
+
 .telefone,
 .telefone-img,
-.whatsapp,
-.whatsapp-img {
+.whatsapp {
     display: none;
 }
 
