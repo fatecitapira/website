@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fatec Itapira</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 420px)">
+    <link rel="stylesheet" href="css/cpa.css">
+    <script src="js/jquery.js"></script>
+    <script>
+    
+            $(function(){
+                $("#header").load("header.html");
+                $("#menuprincipal").load("menuprincipal.html");
+                $("#menulateral").load("menulateral.html");
+                $("#bannercursos").load("bannercursos.html");
+                $("#footer").load("footer.html");
+            });
+        
+        </script>
+</head>
+
+<body>
+<input type="checkbox" id="bt_menu"/>
+<label for="bt_menu">&#9776;</label>
+<div id="header"></div>
+<div id="menuprincipal"></div>
+
+
+<div class ="main"><!-- Conteúdo Principal -->
+           
+    <div id="menulateral"></div>
+    <div class="main-direita"> <!-- Conteúdo Central -->
+        <h1 id="titulomain">EXAME DE PROFICIÊNCIA</h1>
+        <h2 id="conteudomainatualizado">Atualizado: 11/08/2020</h2>
+
+        <p id="conteudomain">As coordenações de curso da FATEC Itapira, no uso de suas atribuições regimentais, torna pública a abertura de inscrições para EXAME DE PROFICIÊNCIA para primeiro semestre de 2020 para os alunos matriculados nos cursos de Gestão Empresarial, Gestão da Produção Industrial e Gestão da Tecnologia da Informação da FATEC Itapira.</p>
+        
+        <p id="conteudomain" style="text-indent: 0em;"><a href="https://forms.gle/6DnXmiuUSZZwjscEA" target="_blank">Formulário de Cadastro</a></p>
+
+    </div> <!-- Fim Conteúdo Central -->   
+    
+</div><!-- Fim Conteúdo Principal -->
+
+<div id="bannercursos"></div>
+<div id="footer"></div>
+
+</body>
+</html>
