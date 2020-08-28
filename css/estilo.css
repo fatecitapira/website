@@ -9,6 +9,19 @@
     margin-bottom: 20px;
 }
 
+#aviso a {
+    color: white;
+    text-decoration:none;
+} 
+
+#aviso a:hover {
+    color: rgb(190, 190, 190);
+}
+
+#aviso a:active {
+    color: #3a4144;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #eceae7;
