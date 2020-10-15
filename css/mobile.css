@@ -55,7 +55,9 @@ header {
 
 .telefone,
 .telefone-img,
-.whatsapp {
+.whatsapp,
+.whatsapp2,
+.whatsapp-img2 {
     display: none;
 }
 

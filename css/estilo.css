@@ -82,7 +82,20 @@ header {
     position: absolute;
     font-size:	14px;
     padding-right: 350px;
-    padding-top: 40px;
+    padding-top: 15px;
+    text-align:	right;
+    width: 140px;
+    top: 0;
+    right: 0;
+}
+
+.whatsapp2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    font-size:	14px;
+    padding-right: 370px;
+    padding-top: 55px;
     text-align:	right;
     width: 140px;
     top: 0;
@@ -102,7 +115,16 @@ header {
     position: absolute;
     width: 35px;
     padding-right: 460px;
-    padding-top: 42px;
+    padding-top: 60px;
+    top: 0;
+    right: 0;
+}
+
+.whatsapp-img2 {
+    position: absolute;
+    width: 35px;
+    padding-right: 460px;
+    padding-top: 20px;
     top: 0;
     right: 0;
 }
