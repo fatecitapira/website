@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fatec Itapira</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 420px)">
+    <link rel="stylesheet" href="css/infopalestra.css">
+    <script src="js/jquery.js"></script>
+    <script>
+    
+            $(function(){
+                $("#header").load("header.html");
+                $("#menuprincipal").load("menuprincipal.html");
+                $("#menulateral").load("menulateral.html");
+                $("#bannercursos").load("bannercursos.html");
+                $("#footer").load("footer.html");
+            });
+        
+        </script>
+</head>
+
+<body>
+<input type="checkbox" id="bt_menu"/>
+<label for="bt_menu">&#9776;</label>
+<div id="header"></div>
+<div id="menuprincipal"></div>
+
+
+<div class ="main"><!-- Conteúdo Principal -->
+           
+    <div id="menulateral"></div>
+    <div class="main-direita"> <!-- Conteúdo Central -->
+        <h1 id="titulomain">Eleição para Coordenadores </h1>
+        <h2 id="conteudomainatualizado">Atualizado: 02/12/2020</h2>
+        
+        <p id="conteudomain" style="text-indent: 0em;"> <div style="font-size: 16px; font-weight: 900;">Cronograma:</div>
+            <br>
+            <b>Inscrições dos candidatos:</b> De 03/12/20 (início às 0:01) até às 04/12/20 (às 23:59)  <br><br>
+
+            <b>Divulgação das Inscrições deferidas:</b> 07/12/2020 (até às 16h00) <br><br>
+
+            <b>Recursos: </b> 08/12/2020 (até às 23h59) <br><br>
+
+            <b>Resposta para os recursos: </b> 09/12/2020 (até às 20h00)<br><br>
+            <b>Votação: </b> De 12/12/2020 (início às 8h00) até 14/12/2020 (às 22h00)<br><br>
+
+            <b>Resposta para os recursos: </b> 09/12/2020 (até às 20h00)<br><br>
+
+            <b>Votação: </b> De 12/12/2020 (início às 8h00) até 14/12/2020 (às 22h00)<br><br>
+
+            <b>Apuração GPI: </b> 15/12/2020 (às 15h00)<br><br>
+
+            <b>Apuração GE: </b> 15/12/2020 (às 16h00)<br><br>
+
+            <b>Resultado </b> 15/12/2020 <br><br>
+        </p>
+
+        <p>
+            <a href="files/administrativo/eleicoes/Edital_01-2020_GPI.PDF" target="_Blank">Edital GPI</a> 
+          </p>
+
+          <p>
+            <a href="files/administrativo/eleicoes/Portaria_118-30-11-2020_Comissao_GPI.PDF" target="_Blank">Portaria 118 - GPI</a> 
+          </p>
+
+          <p>
+            <a href="files/administrativo/eleicoes/Portaria_119-30-11-2020_Comissao_GE.PDF" target="_Blank">Portaria 119 - GE</a> 
+          </p>
+
+       
+
+    </div> <!-- Fim Conteúdo Central -->   
+    
+</div><!-- Fim Conteúdo Principal -->
+
+<div id="bannercursos"></div>
+<div id="footer"></div>
+
+</body>
+</html>
